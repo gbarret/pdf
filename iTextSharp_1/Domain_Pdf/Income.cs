@@ -37,8 +37,8 @@ namespace iTextSharp_1.Domain_Pdf
       this.keys.Add("f1_016(0)", TaxableInterest.ToString());
       this.keys.Add("f1_018(0)", UnemploymentAlaskaDiv.ToString());
       this.keys.Add("f1_020(0)", AdjustedGrossIncome.ToString());
-      this.keys.Add("c1_003(0)", this.Claimed);
-      this.keys.Add("c1_004(0)", this.SpouseClaimed);
+      this.keys.Add("c1_003(0)", Claimed);
+      this.keys.Add("c1_004(0)", SpouseClaimed);
       this.keys.Add("f1_022(0)", Deduction.ToString());
       this.keys.Add("f1_024(0)", TaxableIncome.ToString());
     } // End of updatePdfDictionary() *** 
